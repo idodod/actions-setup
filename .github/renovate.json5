@@ -12,7 +12,11 @@
       matchManagers: [
         'npm', 'github-actions',
       ],
-      groupName: "{{datasource}}_{{updateType}}",
+      matchUpdateTypes: [
+        'minor',
+        'patch',
+      ],
+      groupName: "{{datasource}} (non-major)",
       addLabels: [
         '{{datasource}}',
         '{{updateType}}',
