@@ -6,6 +6,7 @@
   labels: [
     'renovate',
   ],
+  reviewers: [],
   packageRules: [
     {
       // group packages in the same PR according to data source & update type
